@@ -1,0 +1,26 @@
+# FastAPI and Server
+fastapi==0.115.0
+uvicorn[standard]==0.31.0
+python-multipart==0.0.12
+
+# Database
+sqlalchemy==2.0.35
+asyncpg>=0.30.0
+alembic==1.13.3
+
+# Redis
+redis==5.1.1
+
+# Security
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+bcrypt==4.2.0
+
+# Configuration
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-dotenv==1.0.1
+
+# Utilities
+python-dateutil==2.9.0.post0
+
